@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 36, 22, 1) 0%,
+    rgba(9, 121, 93, 1) 48%,
+    rgba(0, 219, 255, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-itens: center;
+}
+
+.perfil-foto {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 460px;
+  max-height: 160px;
+}
+.titulo {
+  line-height: 0.5;
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24;
+}
+.tema button {
+  align-self: flex-end;
+}
+
+.projetos {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-projeto {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  list-style-type: none;
+}
+.links-projetos:hover {
+  font-size: 23px;
+  transition: 0.5s;
+}
+.nome-projeto a {
+  color: white;
+  text-decoration: none;
+}
+.redes-sociais {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.redes-sociais:hover {
+  color: purple;
+  transform: scale(1.2);
+  margin-bottom: 10px;
+}
